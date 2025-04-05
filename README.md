@@ -53,7 +53,7 @@
 4. **Set JWT Secret key**
    ```json
    "AppSettings": {  
-    "Token": "your-32-character-secure-key",  
+    "Token": "your-64-character-secure-key",  
     "Issuer": "CarMarketplace",  
     "Audience": "CarMarketplaceUsers"  
     }  

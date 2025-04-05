@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\CarMarketplace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|c:\\projetos\\carmarketplace\\carmarketplace\\migrations\\20250405161539_initalmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C933A1E-860D-4470-B267-17CD282AD1FA}|CarMarketplace\\CarMarketplace.csproj|solutionrelative:carmarketplace\\migrations\\20250405161539_initalmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250405161539_InitalMigration.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Migrations\\20250405161539_InitalMigration.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Migrations\\20250405161539_InitalMigration.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Migrations\\20250405161539_InitalMigration.cs",
+              "RelativeToolTip": "CarMarketplace\\Migrations\\20250405161539_InitalMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T16:15:39.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CarMarketplace\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:40:48.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Services\\IAuthService.cs",
+              "RelativeToolTip": "CarMarketplace\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T14:17:08.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\DTOs\\TokenResponseDto.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\DTOs\\TokenResponseDto.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\DTOs\\TokenResponseDto.cs",
+              "RelativeToolTip": "CarMarketplace\\DTOs\\TokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T14:14:46.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CarMarketplace\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T14:08:25.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\appsettings.json",
+              "RelativeDocumentMoniker": "CarMarketplace\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\appsettings.json",
+              "RelativeToolTip": "CarMarketplace\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T14:07:31.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Program.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Program.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Program.cs",
+              "RelativeToolTip": "CarMarketplace\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:43:45.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Models\\Review.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Models\\Review.cs",
+              "RelativeToolTip": "CarMarketplace\\Models\\Review.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:04:27.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Models\\Car.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Models\\Car.cs",
+              "RelativeToolTip": "CarMarketplace\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:04:25.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Services\\AuthService.cs",
+              "RelativeToolTip": "CarMarketplace\\Services\\AuthService.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAYwNAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T12:10:32.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Models\\User.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Models\\User.cs",
+              "RelativeToolTip": "CarMarketplace\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:37:32.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Services\\ICarService.cs",
+              "RelativeDocumentMoniker": "CarMarketplace\\Services\\ICarService.cs",
+              "ToolTip": "C:\\Projetos\\CarMarketplace\\CarMarketplace\\Services\\ICarService.cs",
+              "RelativeToolTip": "CarMarketplace\\Services\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T14:58:49.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

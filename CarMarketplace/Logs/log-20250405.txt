@@ -1,0 +1,71 @@
+2025-04-05 12:43:14.126 -03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Car'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-05 12:43:29.698 -03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Car'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-05 13:02:49.865 -03:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] int NOT NULL IDENTITY,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NOT NULL,
+    [CarId] int NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reviews_Cars_CarId] FOREIGN KEY ([CarId]) REFERENCES [Cars] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-04-05 13:05:41.822 -03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] int NOT NULL IDENTITY,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NOT NULL,
+    [CarId] int NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reviews_Cars_CarId] FOREIGN KEY ([CarId]) REFERENCES [Cars] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-04-05 13:08:56.506 -03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] int NOT NULL IDENTITY,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NOT NULL,
+    [CarId] int NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reviews_Cars_CarId] FOREIGN KEY ([CarId]) REFERENCES [Cars] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-04-05 13:10:41.242 -03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] int NOT NULL IDENTITY,
+    [Rating] int NOT NULL,
+    [Comment] nvarchar(max) NOT NULL,
+    [CarId] int NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reviews_Cars_CarId] FOREIGN KEY ([CarId]) REFERENCES [Cars] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-04-05 13:16:28.417 -03:00 [INF] HTTP GET /swagger responded 404 in 1.3390 ms
+2025-04-05 13:16:32.443 -03:00 [INF] HTTP GET /scalar responded 302 in 9.8366 ms
+2025-04-05 13:16:32.492 -03:00 [INF] HTTP GET /scalar/ responded 200 in 41.0783 ms
+2025-04-05 13:16:32.592 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 25.7277 ms
+2025-04-05 13:16:32.614 -03:00 [INF] HTTP GET /scalar/scalar.js responded 200 in 47.4873 ms
+2025-04-05 13:16:32.979 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 126.7992 ms
+2025-04-05 13:16:33.488 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0247 ms
+2025-04-05 13:17:05.683 -03:00 [INF] Register attempt for jose@gmail.com
+2025-04-05 13:17:06.996 -03:00 [INF] User jose registered successfully as Buyer
+2025-04-05 13:17:07.009 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 1486.8888 ms
+2025-04-05 13:19:06.162 -03:00 [INF] Login attempt for jose@gmail.com
+2025-04-05 13:19:06.277 -03:00 [INF] Login successful for jose@gmail.com
+2025-04-05 13:19:06.284 -03:00 [INF] JWT Token created for user with ID: 1
+2025-04-05 13:19:06.350 -03:00 [INF] User with email: jose@gmail.com generated successfully
+2025-04-05 13:19:06.353 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 197.6310 ms
+2025-04-05 13:19:55.678 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0285 ms
+2025-04-05 13:20:32.854 -03:00 [INF] Refresh token attempt for user with ID: 1
+2025-04-05 13:20:32.856 -03:00 [INF] Validating refresh token for user with ID: 1
+2025-04-05 13:20:32.929 -03:00 [INF] User with ID: 1 found
+2025-04-05 13:20:32.931 -03:00 [INF] JWT Token created for user with ID: 1
+2025-04-05 13:20:32.936 -03:00 [INF] User with email: jose@gmail.com generated successfully
+2025-04-05 13:20:32.937 -03:00 [INF] HTTP POST /api/Auth/refresh-token responded 200 in 94.4021 ms
+2025-04-05 13:22:32.556 -03:00 [INF] Logout attempt for user with ID: 1
+2025-04-05 13:22:32.629 -03:00 [INF] User with ID: 1 logged out successfully
+2025-04-05 13:22:32.632 -03:00 [INF] HTTP POST /api/Auth/logout responded 200 in 84.0567 ms

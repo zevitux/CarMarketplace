@@ -1,0 +1,66 @@
+2025-04-06 13:46:31.149 -03:00 [INF] HTTP GET /swagger responded 404 in 1.4721 ms
+2025-04-06 13:46:46.571 -03:00 [INF] HTTP GET /swagger responded 404 in 1.8667 ms
+2025-04-06 13:46:52.421 -03:00 [INF] HTTP GET /scalar responded 302 in 15.3473 ms
+2025-04-06 13:46:52.465 -03:00 [INF] HTTP GET /scalar/ responded 200 in 35.2061 ms
+2025-04-06 13:46:52.553 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 21.0748 ms
+2025-04-06 13:46:52.621 -03:00 [INF] HTTP GET /scalar/scalar.js responded 200 in 89.4983 ms
+2025-04-06 13:46:52.934 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 140.0590 ms
+2025-04-06 13:46:53.355 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0331 ms
+2025-04-06 13:57:29.828 -03:00 [INF] HTTP POST /api/Auth/register responded 400 in 200.0426 ms
+2025-04-06 13:57:39.364 -03:00 [INF] Register attempt for rebeca@gmail.com
+2025-04-06 13:57:40.651 -03:00 [INF] User rebeca registered successfully as Seller
+2025-04-06 13:57:40.660 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 1314.1158 ms
+2025-04-06 13:58:09.057 -03:00 [INF] Login attempt for rebeca@gmail.com
+2025-04-06 13:58:09.164 -03:00 [INF] Login successful for rebeca@gmail.com
+2025-04-06 13:58:09.169 -03:00 [INF] JWT Token created for user with ID: 2
+2025-04-06 13:58:09.198 -03:00 [INF] User with email: rebeca@gmail.com generated successfully
+2025-04-06 13:58:09.200 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 181.0416 ms
+2025-04-06 13:59:20.611 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0212 ms
+2025-04-06 14:02:07.990 -03:00 [INF] HTTP POST /api/Car responded 401 in 7.3569 ms
+2025-04-06 14:05:10.961 -03:00 [INF] Creating a new car for user with id 2.
+2025-04-06 14:05:10.964 -03:00 [INF] Creating a new car for user with id 2.
+2025-04-06 14:05:11.049 -03:00 [INF] Created a new car with id 1 for user with id 2.
+2025-04-06 14:05:11.103 -03:00 [INF] HTTP POST /api/Car responded 201 in 150.6048 ms
+2025-04-06 14:08:51.114 -03:00 [INF] Creating a new car for user with id 2.
+2025-04-06 14:08:51.116 -03:00 [INF] Creating a new car for user with id 2.
+2025-04-06 14:08:51.122 -03:00 [INF] Created a new car with id 2 for user with id 2.
+2025-04-06 14:08:51.127 -03:00 [INF] HTTP POST /api/Car responded 201 in 14.9895 ms
+2025-04-06 14:09:40.623 -03:00 [INF] Fetching all cars.
+2025-04-06 14:09:40.626 -03:00 [INF] Fetching all cars from the database.
+2025-04-06 14:09:40.706 -03:00 [INF] Fetched all cars from the database.
+2025-04-06 14:09:40.708 -03:00 [INF] HTTP GET /api/Car responded 200 in 124.3188 ms
+2025-04-06 14:10:40.708 -03:00 [INF] Fetching all cars.
+2025-04-06 14:10:40.710 -03:00 [INF] Fetching all cars from the database.
+2025-04-06 14:10:40.717 -03:00 [INF] Fetched all cars from the database.
+2025-04-06 14:10:40.719 -03:00 [INF] HTTP GET /api/Car/ responded 200 in 10.8215 ms
+2025-04-06 14:10:43.399 -03:00 [INF] Fetching car with id 1.
+2025-04-06 14:10:43.403 -03:00 [INF] Fetching car with id 1 from the database.
+2025-04-06 14:10:43.431 -03:00 [INF] Fetched car with id 1 from the database.
+2025-04-06 14:10:43.434 -03:00 [INF] HTTP GET /api/Car/1 responded 200 in 38.3831 ms
+2025-04-06 14:10:47.157 -03:00 [INF] Fetching car with id 2.
+2025-04-06 14:10:47.158 -03:00 [INF] Fetching car with id 2 from the database.
+2025-04-06 14:10:47.161 -03:00 [INF] Fetched car with id 2 from the database.
+2025-04-06 14:10:47.162 -03:00 [INF] HTTP GET /api/Car/2 responded 200 in 5.4873 ms
+2025-04-06 14:11:41.451 -03:00 [INF] HTTP PUT /api/Car/2 responded 401 in 58.5899 ms
+2025-04-06 14:11:46.643 -03:00 [INF] HTTP PUT /api/Car/1 responded 401 in 0.0849 ms
+2025-04-06 14:19:06.483 -03:00 [INF] HTTP GET /swagger responded 404 in 1.6174 ms
+2025-04-06 14:19:11.057 -03:00 [INF] HTTP GET /scalar responded 302 in 8.4324 ms
+2025-04-06 14:19:11.101 -03:00 [INF] HTTP GET /scalar/ responded 200 in 35.0731 ms
+2025-04-06 14:19:11.188 -03:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 10.6117 ms
+2025-04-06 14:19:11.188 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 10.7927 ms
+2025-04-06 14:19:11.546 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 125.4789 ms
+2025-04-06 14:19:32.537 -03:00 [INF] Login attempt for rebeca@gmail.com
+2025-04-06 14:19:33.624 -03:00 [INF] Login successful for rebeca@gmail.com
+2025-04-06 14:19:33.631 -03:00 [INF] JWT Token created for user with ID: 2
+2025-04-06 14:19:33.729 -03:00 [INF] User with email: rebeca@gmail.com generated successfully
+2025-04-06 14:19:33.738 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1374.2298 ms
+2025-04-06 14:19:58.782 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 37.0741 ms
+2025-04-06 14:20:56.262 -03:00 [INF] HTTP PUT /api/Car/2 responded 401 in 14.3789 ms
+2025-04-06 14:21:06.734 -03:00 [INF] Updating car with id 2 for user with id 2.
+2025-04-06 14:21:06.737 -03:00 [INF] Updating car with id 2 for user with id 2.
+2025-04-06 14:21:06.790 -03:00 [INF] Updated car with id 2 for user with id 2.
+2025-04-06 14:21:06.793 -03:00 [INF] HTTP PUT /api/Car/2 responded 204 in 70.7302 ms
+2025-04-06 14:21:40.806 -03:00 [INF] Fetching all cars.
+2025-04-06 14:21:40.809 -03:00 [INF] Fetching all cars from the database.
+2025-04-06 14:21:40.959 -03:00 [INF] Fetched all cars from the database.
+2025-04-06 14:21:40.963 -03:00 [INF] HTTP GET /api/Car responded 200 in 161.5708 ms

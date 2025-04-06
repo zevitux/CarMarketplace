@@ -18,44 +18,84 @@ namespace CarMarketplace.Controllers
         }
 
         [HttpPost("register")]
-
         public async Task<ActionResult<User>> Register(RegisterDto request)
         {
-            var user = await _authService.RegisterAsync(request);
-            if (user == null)
-                return BadRequest("User already exists");
-        
-            return Ok(user);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            try
+            {
+                var user = await _authService.RegisterAsync(request);
+                if (user == null)
+                    return BadRequest("User already exists");
+
+                return Ok(user);
+            }
+            catch (Exception)
+            {
+                // Log the exception
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpPost("login")]
         public async Task<ActionResult<TokenResponseDto>> Login(LoginDto request)
         {
-            var response = await _authService.LoginAsync(request);
-            if(response == null)
-                return BadRequest("Invalid credentials");
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            return Ok(response);
+            try
+            {
+                var response = await _authService.LoginAsync(request);
+                if (response == null)
+                    return BadRequest("Invalid credentials");
+
+                return Ok(response);
+            }
+            catch (Exception)
+            {
+                // Log the exception
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpPost("refresh-token")]
         public async Task<ActionResult<TokenResponseDto>> RefreshToken(RefreshTokenRequestDto request)
         {
-            var response = await _authService.RefreshTokenAsync(request);
-            if (response == null)
-                return Unauthorized("Invalid token");
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            return Ok(response);
+            try
+            {
+                var response = await _authService.RefreshTokenAsync(request);
+                if (response == null)
+                    return Unauthorized("Invalid token");
+
+                return Ok(response);
+            }
+            catch (Exception)
+            {
+                // Log the exception
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         [HttpPost("logout")]
         [Authorize]
         public async Task<ActionResult> Logout()
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
-            var success = await _authService.LogoutAsync(userId);
+            try
+            {
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+                var success = await _authService.LogoutAsync(userId);
 
-            return success ? Ok("Logged out successfully") : BadRequest("Logout failed");
+                return success ? Ok("Logged out successfully") : BadRequest("Logout failed");
+            }
+            catch (Exception)
+            {
+                // Log the exception
+                return StatusCode(500, "Internal server error");
+            }
         }
     }
 }

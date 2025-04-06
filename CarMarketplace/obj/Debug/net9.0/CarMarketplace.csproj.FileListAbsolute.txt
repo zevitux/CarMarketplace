@@ -176,3 +176,4 @@ C:\Projetos\CarMarketplace\CarMarketplace\obj\Debug\net9.0\refint\CarMarketplace
 C:\Projetos\CarMarketplace\CarMarketplace\obj\Debug\net9.0\CarMarketplace.pdb
 C:\Projetos\CarMarketplace\CarMarketplace\obj\Debug\net9.0\CarMarketplace.genruntimeconfig.cache
 C:\Projetos\CarMarketplace\CarMarketplace\obj\Debug\net9.0\ref\CarMarketplace.dll
+C:\Projetos\CarMarketplace\CarMarketplace\obj\Debug\net9.0\CarMarketplace.sourcelink.json

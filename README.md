@@ -40,7 +40,7 @@
 
 1. **Clone the repository**  
    ```bash  
-   git clone https://github.com/yourusername/CarMarketplace.git  
+   git clone https://github.com/zevitux/CarMarketplace.git  
    cd CarMarketplace
 2. **Configure databse**
    ```json

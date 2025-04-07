@@ -35,14 +35,14 @@ namespace CarMarketplace.Services
                     IsUsed = c.IsUsed,
                     Description = c.Description,
                     UserId = c.UserId,
-                    UserName = c.User.Name,
-                    Reviews = c.Reviews.Select(r => new ReviewDto
+                    UserName = c.User!.Name,
+                    Reviews = c.Reviews!.Select(r => new ReviewDto
                     {
                         Id = r.Id,
                         Rating = r.Rating,
                         Comment = r.Comment,
                         UserId = r.UserId,
-                        UserName = r.User.Name
+                        UserName = r.User!.Name
                     }).ToList()
                 }).ToListAsync();
 
@@ -56,7 +56,7 @@ namespace CarMarketplace.Services
             _logger.LogInformation("Fetching car with id {Id} from the database.", id);
             var car = await _context.Cars
                 .Include(u => u.User) //Include user info
-                .Include(r => r.Reviews) //Include reviews
+                .Include(r => r.Reviews)!.ThenInclude(review => review.User!) //Include reviews
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (car == null)
@@ -77,14 +77,14 @@ namespace CarMarketplace.Services
                 IsUsed = car.IsUsed,
                 Description = car.Description,
                 UserId = car.UserId,
-                UserName = car.User.Name,
-                Reviews = car.Reviews.Select(r => new ReviewDto
+                UserName = car.User!.Name,
+                Reviews = car.Reviews!.Select(r => new ReviewDto
                 {
                     Id = r.Id,
                     Rating = r.Rating,
                     Comment = r.Comment,
                     UserId = r.UserId,
-                    UserName = r.User.Name
+                    UserName = r.User!.Name
                 }).ToList()
             };
         }
@@ -198,14 +198,14 @@ namespace CarMarketplace.Services
                     IsUsed = c.IsUsed,
                     Description = c.Description,
                     UserId = c.UserId,
-                    UserName = c.User.Name,
-                    Reviews = c.Reviews.Select(r => new ReviewDto
+                    UserName = c.User!.Name,
+                    Reviews = c.Reviews!.Select(r => new ReviewDto
                     {
                         Id = r.Id,
                         Rating = r.Rating,
                         Comment = r.Comment,
                         UserId = r.UserId,
-                        UserName = r.User.Name
+                        UserName = r.User!.Name
                     }).ToList()
                 }).ToListAsync();
 

@@ -1,0 +1,135 @@
+2025-04-07 19:11:02.785 -03:00 [INF] HTTP GET /swagger responded 404 in 1.5668 ms
+2025-04-07 19:11:36.142 -03:00 [INF] HTTP GET /scalar responded 302 in 15.6236 ms
+2025-04-07 19:11:36.180 -03:00 [INF] HTTP GET /scalar/ responded 200 in 30.1952 ms
+2025-04-07 19:11:36.242 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 9.5428 ms
+2025-04-07 19:11:36.242 -03:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 9.5687 ms
+2025-04-07 19:11:36.839 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 132.7316 ms
+2025-04-07 19:11:38.724 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0322 ms
+2025-04-07 19:11:38.730 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0197 ms
+2025-04-07 19:11:59.738 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 203.9189 ms
+2025-04-07 19:12:16.151 -03:00 [INF] Login attempt for jose@gmail.com
+2025-04-07 19:12:17.324 -03:00 [WRN] Login attempt failed for jose@gmail.com
+2025-04-07 19:12:17.328 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 1194.8346 ms
+2025-04-07 19:12:24.639 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 2.9884 ms
+2025-04-07 19:12:28.159 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 0.4361 ms
+2025-04-07 19:12:42.474 -03:00 [INF] Login attempt for jose@gmail.com
+2025-04-07 19:12:42.550 -03:00 [WRN] Login attempt failed for jose@gmail.com
+2025-04-07 19:12:42.552 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 79.1339 ms
+2025-04-07 19:12:50.791 -03:00 [INF] Login attempt for jose@gmail.com
+2025-04-07 19:12:50.899 -03:00 [WRN] Login attempt failed for jose@gmail.com
+2025-04-07 19:12:50.901 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 110.8188 ms
+2025-04-07 19:13:09.701 -03:00 [INF] HTTP POST /api/Auth/register responded 400 in 5.2237 ms
+2025-04-07 19:13:22.627 -03:00 [INF] Register attempt for claudio@gmail.com
+2025-04-07 19:13:22.827 -03:00 [INF] User claudio registered successfully as Buyer
+2025-04-07 19:13:22.832 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 206.5550 ms
+2025-04-07 19:13:56.078 -03:00 [INF] HTTP POST /api/Auth/login responded 400 in 0.5662 ms
+2025-04-07 19:14:02.400 -03:00 [INF] Login attempt for claudio@gmail.com
+2025-04-07 19:14:02.466 -03:00 [INF] Login successful for claudio@gmail.com
+2025-04-07 19:14:02.473 -03:00 [INF] JWT Token created for user with ID: 3
+2025-04-07 19:14:02.502 -03:00 [INF] User with email: claudio@gmail.com generated successfully
+2025-04-07 19:14:02.504 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 103.6816 ms
+2025-04-07 19:14:45.291 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0250 ms
+2025-04-07 19:15:34.174 -03:00 [ERR] HTTP POST /api/Review responded 500 in 8.7746 ms
+System.InvalidOperationException: Unable to resolve service for type 'CarMarketplace.Services.IReviewService' while attempting to activate 'CarMarketplace.Controllers.ReviewController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method145(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-07 19:15:34.184 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CarMarketplace.Services.IReviewService' while attempting to activate 'CarMarketplace.Controllers.ReviewController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method145(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-07 19:19:01.201 -03:00 [INF] HTTP GET /swagger responded 404 in 3.8513 ms
+2025-04-07 19:19:04.670 -03:00 [INF] HTTP GET /scalar/ responded 200 in 45.3296 ms
+2025-04-07 19:19:04.756 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 10.8267 ms
+2025-04-07 19:19:04.756 -03:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 11.2875 ms
+2025-04-07 19:19:05.145 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 150.3322 ms
+2025-04-07 19:19:22.625 -03:00 [INF] Login attempt for claudio@gmail.com
+2025-04-07 19:19:23.734 -03:00 [INF] Login successful for claudio@gmail.com
+2025-04-07 19:19:23.741 -03:00 [INF] JWT Token created for user with ID: 3
+2025-04-07 19:19:23.849 -03:00 [INF] User with email: claudio@gmail.com generated successfully
+2025-04-07 19:19:23.858 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1380.0826 ms
+2025-04-07 19:19:47.358 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0311 ms
+2025-04-07 19:20:24.692 -03:00 [INF] Creating a new review for user with id 3.
+2025-04-07 19:20:24.696 -03:00 [INF] Creating a new review for user with id 3.
+2025-04-07 19:20:24.754 -03:00 [INF] Review created with id 1.
+2025-04-07 19:20:24.811 -03:00 [INF] HTTP POST /api/Review responded 201 in 130.0296 ms
+2025-04-07 19:20:48.654 -03:00 [INF] Fetching all cars.
+2025-04-07 19:20:48.657 -03:00 [INF] Fetching all cars from the database.
+2025-04-07 19:20:48.788 -03:00 [INF] Fetched all cars from the database.
+2025-04-07 19:20:48.793 -03:00 [INF] HTTP GET /api/Car responded 200 in 143.2251 ms
+2025-04-07 19:21:51.124 -03:00 [INF] Creating a new review for user with id 3.
+2025-04-07 19:21:51.126 -03:00 [INF] Creating a new review for user with id 3.
+2025-04-07 19:21:51.131 -03:00 [INF] Review created with id 2.
+2025-04-07 19:21:51.137 -03:00 [INF] HTTP POST /api/Review responded 201 in 13.6834 ms
+2025-04-07 19:22:00.291 -03:00 [INF] Fetching all cars.
+2025-04-07 19:22:00.293 -03:00 [INF] Fetching all cars from the database.
+2025-04-07 19:22:00.300 -03:00 [INF] Fetched all cars from the database.
+2025-04-07 19:22:00.302 -03:00 [INF] HTTP GET /api/Car responded 200 in 11.3692 ms
+2025-04-07 19:23:20.890 -03:00 [INF] Updating review with id 2 for user with id 3.
+2025-04-07 19:23:20.892 -03:00 [INF] Updating review with id 2 for user with id 3.
+2025-04-07 19:23:20.910 -03:00 [INF] Review with id 2 updated.
+2025-04-07 19:23:20.912 -03:00 [INF] HTTP PUT /api/Review/2 responded 204 in 31.2368 ms
+2025-04-07 19:27:44.528 -03:00 [INF] HTTP GET /swagger responded 404 in 1.6603 ms
+2025-04-07 19:27:48.762 -03:00 [INF] HTTP GET /scalar/ responded 200 in 49.2415 ms
+2025-04-07 19:27:48.853 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 11.7967 ms
+2025-04-07 19:27:48.853 -03:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 11.7805 ms
+2025-04-07 19:27:49.222 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 139.9292 ms
+2025-04-07 19:28:43.712 -03:00 [INF] Login attempt for claudio@gmail.com
+2025-04-07 19:28:44.859 -03:00 [INF] Login successful for claudio@gmail.com
+2025-04-07 19:28:44.865 -03:00 [INF] JWT Token created for user with ID: 3
+2025-04-07 19:28:44.969 -03:00 [INF] User with email: claudio@gmail.com generated successfully
+2025-04-07 19:28:44.979 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1486.2957 ms
+2025-04-07 19:29:07.143 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0245 ms
+2025-04-07 19:29:31.408 -03:00 [INF] Updating review with id 1 for user with id 3.
+2025-04-07 19:29:31.410 -03:00 [INF] Updating review with id 1 for user with id 3.
+2025-04-07 19:29:31.441 -03:00 [INF] Review with id 1 updated.
+2025-04-07 19:29:31.444 -03:00 [INF] HTTP PUT /api/Review/1 responded 204 in 50.2630 ms
+2025-04-07 19:31:36.161 -03:00 [INF] Login attempt for rebeca@gmail.com
+2025-04-07 19:31:36.274 -03:00 [INF] Login successful for rebeca@gmail.com
+2025-04-07 19:31:36.275 -03:00 [INF] JWT Token created for user with ID: 2
+2025-04-07 19:31:36.280 -03:00 [INF] User with email: rebeca@gmail.com generated successfully
+2025-04-07 19:31:36.281 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 122.0933 ms
+2025-04-07 19:32:06.981 -03:00 [INF] Creating a new car for user with id 2.
+2025-04-07 19:32:06.984 -03:00 [INF] Creating a new car for user with id 2.
+2025-04-07 19:32:07.049 -03:00 [INF] Created a new car with id 4 for user with id 2.
+2025-04-07 19:32:07.105 -03:00 [INF] HTTP POST /api/Car responded 201 in 132.3683 ms
+2025-04-07 19:33:25.706 -03:00 [INF] Creating a new review for user with id 3.
+2025-04-07 19:33:25.708 -03:00 [INF] Creating a new review for user with id 3.
+2025-04-07 19:33:25.716 -03:00 [INF] Review created with id 3.
+2025-04-07 19:33:25.721 -03:00 [INF] HTTP POST /api/Review responded 201 in 20.3913 ms
+2025-04-07 19:34:07.946 -03:00 [INF] Register attempt for rafael@gmail.com
+2025-04-07 19:34:08.032 -03:00 [INF] User rafael registered successfully as Buyer
+2025-04-07 19:34:08.037 -03:00 [INF] HTTP POST /api/Auth/register responded 200 in 97.0899 ms
+2025-04-07 19:34:25.253 -03:00 [INF] Login attempt for rafael@gmail.com
+2025-04-07 19:34:25.317 -03:00 [INF] Login successful for rafael@gmail.com
+2025-04-07 19:34:25.319 -03:00 [INF] JWT Token created for user with ID: 4
+2025-04-07 19:34:25.322 -03:00 [INF] User with email: rafael@gmail.com generated successfully
+2025-04-07 19:34:25.323 -03:00 [INF] HTTP POST /api/Auth/login responded 200 in 70.7421 ms
+2025-04-07 19:36:29.674 -03:00 [INF] HTTP GET /swagger responded 404 in 1.4257 ms
+2025-04-07 19:36:34.873 -03:00 [INF] HTTP GET /scalar/ responded 200 in 41.8892 ms
+2025-04-07 19:36:34.960 -03:00 [INF] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 13.2107 ms
+2025-04-07 19:36:34.960 -03:00 [INF] HTTP GET /scalar/scalar.js responded 304 in 13.3247 ms
+2025-04-07 19:36:35.313 -03:00 [INF] HTTP GET /openapi/v1.json responded 200 in 145.7211 ms
+2025-04-07 19:36:58.989 -03:00 [INF] Creating a new review for user with id 4.
+2025-04-07 19:36:58.994 -03:00 [INF] Creating a new review for user with id 4.
+2025-04-07 19:36:59.871 -03:00 [INF] Review created with id 4.
+2025-04-07 19:37:00.171 -03:00 [INF] HTTP POST /api/Review responded 201 in 1327.5837 ms
